@@ -12,6 +12,8 @@ body {
   align-items: center;
   height: 100vh;
   background: linear-gradient(200deg, #b7a4a4, #1a354a);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
@@ -79,11 +81,9 @@ body {
   }
   .description h1 {
     font-size: 30px;
-    margin-left: 70px;
   }
   .description p {
     font-size: 13px;
-    margin-left: 60px;
   }
   .calculate__box {
     width: 100%;
@@ -106,11 +106,9 @@ body {
   }
   .description h1 {
     font-size: 30px;
-    margin-left: 10px;
   }
   .description p {
     font-size: 13px;
-    margin-left: 10px;
   }
   .calculate__box {
     width: 80%;
@@ -121,6 +119,13 @@ body {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 600px) {
+  .description {
+    position: relative;
+    margin-left: 20px;
+  }
+}
+
 
 
 
